@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ "./src/pages/main/sass/style.scss");
 
 const data = [];
-////const url = 'https://anton13602.github.io/JSON_shelter/pest_main.json';
+const url = 'https://anton13602.github.io/JSON_shelter/pest_main.json';
 const urlLocal = "../../assets/json/pets.json";
 
 async function getJson() {
