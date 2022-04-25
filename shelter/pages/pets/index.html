@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/34a8245e988a551acd3b.svg">
+    <title>Pest</title>
+<link href="../../pages/pets/pets.css" rel="stylesheet"></head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__logo logo">
+                    <a class="logo__title" href="../main/index.html"><h1>Cozy House</h1></a>
+                    <p class="logo__text">Shelter for pets in Boston</p>
+                </div>
+                <nav class="menu__body">
+                    <ul  class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="../main/index.html">About the shelter</a></li>
+                    </ul>
+                    <ul  class="menu__list">
+                        <li class="menu__item menu__item_active"><a class="menu__link menu__link_active" href="" data-goto=".pets">Our pets</a></li>
+                    </ul>
+                    <ul  class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="../main/index.html#help">Help the shelter</a></li>
+                    </ul>
+                    <ul  class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="" data-goto=".footer">Contacts</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="pets" id="pets">
+                <div class="pets__container container">
+                    <h3 class="pets__title page-title">Our friends who </br>are looking for a house</h3>
+                    <div class="pets__slider slider-pets">
+                        <div class="slider-pets__colums">
+
+                        </div>
+                    </div>
+                    <div class="pets__navigation navigation">
+                        <button class="navigation__button data-disabled last-left">&lt;&lt;</button>
+                        <button class="navigation__button data-disabled first-left">&lt;</button>
+                        <button class="navigation__button navigation__button_active">1</button>
+                        <button class="navigation__button data-active first-right">&GT;</button>
+                        <button class="navigation__button data-active last-right">&GT;&GT;</button>
+                    </div>
+                </div> 
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__container container">
+                <div class="footer__colums">
+                    <div class="footer__colum footer-firs">
+                        <h2 class="footer-firs__title">For questions and suggestions</h2>
+                        <a class="footer-firs__link" href="mailto:email@shelter.com" >
+                            <img src="../../img/ed33c30e94f6a2b4e039.svg" alt="">
+                            <h4>email@shelter.com</h4>
+                        </a>
+                        <a class="footer-firs__link" href="tel:+136745677554" >
+                            <img src="../../img/7ccd27521c6ac31851c3.svg" alt="">
+                            <h4>+13 674 567 75 54</h4>
+                        </a>
+                    </div>
+                    <div class="footer__colum footer-second">
+                        <h2 class="footer-second__title">We are waiting for your visit</h2>
+                        <a class="footer-second__link" target="_blank" href="https://www.google.com/maps/place/1+Central+St,+Boston,+MA+02109,+%D0%A1%D0%A8%D0%90/@42.3585558,-71.056915,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370868bc2ce7b:0x82fa7db94f5fea9e!8m2!3d42.3585519!4d-71.0547263!5m1!1e1?hl=ru-RU" >
+                            <img src="../../img/40f188612ed0886f7707.svg" alt="">
+                            <h4>1 Central Street, Boston (entrance from the store)</h4>
+                        </a>
+                        <a class="footer-second__link" target="_blank" href="https://www.google.com/maps/search/18+South+Park,+London/@51.4647831,-0.2502263,12z/data=!3m1!4b1!5m1!1e1?hl=ru-RU" >
+                            <img src="../../img/40f188612ed0886f7707.svg" alt="">
+                            <h4>18 South Park, London</h4>
+                        </a>
+                    </div>
+                    <div class="footer__colum img-footer">
+                        <img src="../../img/1ff9857c2cc1fabbb2b1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="popup" aria-hidden="true" class="popup">
+        <div class="popup__wrapper">
+            <div class="popup__content">
+                <button data-close type="button" class="popup__close close-popup"><span></span></button>
+                <div class="popup__body body-popup">
+                    <div class="body-popup__img">
+                        <img src="../../img/61c5e75926d2713cc736.png" alt="jennifer">
+                    </div>
+                    <div class="body-popup__content">
+                        <h3 class="body-popup__title">Jennifer</h3>
+                        <h4 class="body-popup__sybtitle">Dog - Labrador</h4>
+                        <p class="body-popup__text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                        <ul class="body-popup__list">
+                            <li class="body-popup__item"><span>Age: </span><p>2 months</p></li>
+                            <li class="body-popup__item"><span>Inoculations: </span><p>none</p></li>
+                            <li class="body-popup__item"><span>Diseases: </span><p>none</p></li>
+                            <li class="body-popup__item"><span>Parasites: </span><p>none</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backgroung"></div>
+<script defer src="../../pages/pets/pets.js"></script></body>
+</html>
