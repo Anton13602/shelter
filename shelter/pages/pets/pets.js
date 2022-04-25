@@ -456,4 +456,3 @@ function changeContentPopup(nameDog, imgDog) {
 
 /******/ })()
 ;
-//# sourceMappingURL=pets.js.map

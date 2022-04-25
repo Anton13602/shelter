@@ -1,13 +1,4 @@
-/*!*******************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/main/sass/style.scss ***!
-  \*******************************************************************************************************************************************************************/
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -1740,5 +1731,3 @@ body._lock {
   opacity: 1;
   visibility: visible;
 }
-
-/*# sourceMappingURL=main.css.map*/
